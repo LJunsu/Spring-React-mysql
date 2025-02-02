@@ -1,0 +1,27 @@
+package com.jiraynor.board_back.dto.response.board;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+import com.jiraynor.board_back.common.ResponseCode;
+import com.jiraynor.board_back.common.ResponseMessage;
+import com.jiraynor.board_back.dto.response.ResponseDto;
+
+import lombok.Getter;
+
+@Getter
+public class PostBoardResponseDto extends ResponseDto {
+    private PostBoardResponseDto() {
+        super(ResponseCode.SUCCESS, ResponseMessage.SUCCESS);
+    }
+
+    public static ResponseEntity<PostBoardResponseDto> success() {
+        PostBoardResponseDto result = new PostBoardResponseDto();
+        return ResponseEntity.status(HttpStatus.OK).body(result);
+    }
+
+    public static ResponseEntity<ResponseDto> noExistUser() {
+        ResponseDto result = new ResponseDto(ResponseCode.NOT_EXISTED_USED, ResponseMessage.NOT_EXISTED_USED);
+        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(result);
+    }
+}

@@ -1,0 +1,238 @@
+.divider {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.emphasis {
+    font-weight: bolder;
+}
+
+.word-badge {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding: 6px 20px;
+    padding: 6px 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.word-badge:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+}
+
+.black-button {
+    border-radius: 46px;
+    width: 95px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+    cursor: pointer;
+}
+
+.black-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.black-large-full-button {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 46px;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+    cursor: pointer;
+}
+
+.black-large-full-button:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.disable-button {
+    border-radius: 46px;
+    width: 95px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+    cursor: not-allowed;
+}
+
+.white-button {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 46px;
+    width: 93px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+    cursor: pointer;
+}
+
+.white-button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.icon-box {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-box-small {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-box-large {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-button {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon-button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-size: 100%;
+}
+
+.eye-light-off-icon {
+    background-image: url(assets/image/eye-light-off.png);
+}
+
+.eye-light-on-icon {
+    background-image: url(assets/image/eye-light-on.png);
+}
+
+.expand-left-light-icon {
+    background-image: url(assets/image/expand-left-light.png);
+}
+
+.expand-right-light-icon {
+    background-image: url(assets/image/expand-right-light.png);
+}
+
+.expand-left-icon {
+    background-image: url(assets/image/expand-left.png);
+}
+
+.expand-right-icon {
+    background-image: url(assets/image/expand-right.png);
+}
+
+.logo-light-icon {
+    background-image: url(assets/image/logo-light.png);
+}
+
+.insta-icon {
+    background-image: url(assets/image/insta.png);
+}
+
+.naver-blog-icon {
+    background-image: url(assets/image/naver-blog.png);
+}
+
+.logo-dark-icon {
+    background-image: url(assets/image/logo-dark.png);
+}
+
+.search-light-icon {
+    background-image: url(assets/image/search-light.png);
+}
+
+.check-round-fill-icon {
+    background-image: url(assets/image/check-round-fill.png);
+}
+
+.check-ring-light-icon {
+    background-image: url(assets/image/check-ring-light.png);
+}
+
+.image-box-light-icon {
+    background-image: url(assets/image/image-box-light.png);
+}
+
+.close-icon {
+    background-image: url(assets/image/close.png);
+}
+
+.more-icon {
+    background-image: url(assets/image/more.png);
+}
+
+.favorite-fill-icon {
+    background-image: url(assets/image/favorite-fill.png);
+}
+
+.favorite-light-icon {
+    background-image: url(assets/image/favorite-light.png);
+}
+
+.up-light-icon {
+    background-image: url(assets/image/expand-up-light.png);
+}
+
+.down-light-icon {
+    background-image: url(assets/image/expand-down-light.png);
+}
+
+.comment-icon {
+    background-image: url(assets/image/chat-light.png);
+}
+
+.edit-icon {
+    background-image: url(assets/image/edit-light.png);
+}
+
+.image-box-white-icon {
+    background-image: url(assets/image/image-box-white-light.png);
+}
+
+.arrow-right-icon {
+    background-image: url(assets/image/arrow-right.png);
+}
